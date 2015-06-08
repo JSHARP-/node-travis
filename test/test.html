@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>Varafy Tests</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- Testing Libraries -->
+    <link rel="stylesheet" href="js/lib/mocha.css" />
+    <script src="js/lib/mocha.js"></script>
+    <script src="js/lib/chai.js"></script >
+    <script src="js/lib/sinon.js"></script>
+    <!-- Testing Library Config -->
+    <script>
+        // Setup
+        var expect = chai.expect;
+        mocha.setup("bdd");
+        // Run tests on window load event
+        window.onload = function () {
+            (window.mochaPhantomJS || mocha).run();
+        };
+    </script>
+    <script src="js/spec/hello.spec.js"></script>
+</head>
+<body>
+    <div id="mocha"></div>
+</body>
+</html>
