@@ -1,6 +1,6 @@
 {
-  "name": "Varafy",
-  "description": "An education app",
+  "name": "NodeJS Travis CI Test",
+  "description": "An app to test Travis CI",
   "keywords": [
     "express",
     "mongoose",
@@ -15,7 +15,8 @@
     "npm": "1.2.x"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "mocha-phantomjs test/test.html"
   },
   "dependencies": {
     "express": "3.3.4",
