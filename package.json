@@ -1,0 +1,27 @@
+{
+  "name": "Varafy",
+  "description": "An education app",
+  "keywords": [
+    "express",
+    "mongoose",
+    "mongodb",
+    "passport",
+    "demo"
+  ],
+  "private": false,
+  "author": "Justin Sharp <jsharp@varafy.com>",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.3.4",
+    "phantom": "~0.7.2",
+    "mocha": "1.17.1",
+    "phantomjs": "1.9.2-2",
+    "mocha-phantomjs": "3.2.0"
+  }
+}
