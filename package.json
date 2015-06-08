@@ -1,5 +1,5 @@
 {
-  "name": "NodeJS Travis CI Test",
+  "name": "node-travis",
   "description": "An app to test Travis CI",
   "keywords": [
     "express",
