@@ -13,7 +13,7 @@ describe("Trying out the test libraries", function () {
 
     describe("Chai", function () {
         it("should be equal using 'expect'", function () {
-            expect(hello()).to.equal("Hello World");
+            expect(hello()).to.equal("Hello Worl");
         });
     });
 
